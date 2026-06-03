@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harinarayanan M | Portfolio</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+header{
+    background:linear-gradient(135deg,#0d47a1,#1976d2);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+    border-radius:15px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2rem;
+}
+
+section{
+    background:white;
+    margin-top:20px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#0d47a1;
+    margin-bottom:15px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#1976d2;
+    color:white;
+    padding:10px 15px;
+    border-radius:20px;
+}
+
+.project-card{
+    border-left:5px solid #1976d2;
+    padding-left:15px;
+}
+
+.contact a{
+    text-decoration:none;
+    color:#1976d2;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    margin-top:20px;
+    padding:15px;
+    color:#666;
+}
+
+button{
+    background:#1976d2;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#0d47a1;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+    <h1>Harinarayanan M</h1>
+    <p>Diploma Student | Electrical & Electronics Engineering</p>
+    <button onclick="showMessage()">Welcome</button>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am Harinarayanan M, a 19-year-old Diploma student in
+        Electrical and Electronics Engineering (EEE) at
+        SSM Polytechnic College, Tirur. I am currently studying in
+        the 3rd semester (2026). I am passionate about electrical
+        systems, electronics, and practical engineering projects.
+    </p>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <p><strong>Diploma in Electrical & Electronics Engineering</strong></p>
+    <p>SSM Polytechnic College, Tirur</p>
+    <p>3rd Semester | 2026</p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">Electrical Engineering</div>
+        <div class="skill">Electronics Fundamentals</div>
+        <div class="skill">Circuit Analysis</div>
+        <div class="skill">Electrical Wiring</div>
+        <div class="skill">Safety Practices</div>
+        <div class="skill">Problem Solving</div>
+    </div>
+</section>
+
+<section>
+    <h2>Project</h2>
+    <div class="project-card">
+        <h3>Mini Inverter Making</h3>
+        <p>
+            Designed and assembled a mini inverter project,
+            gaining practical experience in power conversion,
+            electronic components, and circuit implementation.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>🏏 Playing Cricket</li>
+        <li>⚽ Playing Football</li>
+        <li>🎨 Crafting</li>
+    </ul>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:harihari0208@gmail.com">harihari0208@gmail.com</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Harinarayanan M | Electrical & Electronics Engineering Student</p>
+</footer>
+
+</div>
+
+<script>
+function showMessage(){
+    alert("Welcome to Harinarayanan M's Portfolio!");
+}
+</script>
+
+</body>
+</html>
